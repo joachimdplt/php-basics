@@ -12,4 +12,14 @@ $_SESSION	                Stocke des données de session accessibles sur plusieu
 
 */
 
+setcookie("utilisateur", "Alice", time() + 3600); // Stocké pendant 1 heure
+echo "Cookie créé";
+
+///
+
+session_start();
+$_SESSION["nom"] = "Alice";
+echo "Session enregistrée";
+
+
 ?>
