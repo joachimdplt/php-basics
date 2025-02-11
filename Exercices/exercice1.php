@@ -20,4 +20,7 @@ $age = 20;
 
 echo "Je m'appelle $firstname $name, et j'ai $age ans";
 
+
+# utilsataion de l'interpolation pour afficher les données simplement
+
 ?>
