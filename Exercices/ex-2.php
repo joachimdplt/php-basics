@@ -1,20 +1,9 @@
 <?php
 // Exercice 2 : Vérification de l'âge
 // php -S localhost:8000 en cli pour demmarer le server
-?>
-<form method="post">
-    Entrez votre âge : <input type="number" name="age">
-    <input type="submit" value="Vérifier">
-</form>
+// Récupérer l'âge depuis le formulaire
 
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $age = $_POST["age"]; // Récupérer l'âge depuis le formulaire
+/// Pour verifier l'âge, je dois creer un formulaire qui va permettre : - à l'utilisateur d'inserer son age 
+//                                                                      - à l'utilisateur de verfier son age
 
-    if ($age >= 18) {
-        echo "Vous êtes majeur.";
-    } else {
-        echo "Vous êtes mineur.";
-    }
-}
 ?>
