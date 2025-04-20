@@ -7,3 +7,10 @@
 // Utilise une boucle foreach pour afficher chaque fruit
 
 ?>
+
+<?php
+$fruits = ["fraise", "prune", "cerise"]; 
+    foreach($fruits as $fruit){
+        echo $fruit . "\n";
+    }
+?>

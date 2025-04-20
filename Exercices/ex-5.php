@@ -7,3 +7,10 @@
 // Appelle la fonction avec deux nombres et affiche le résultat
 
 ?>
+
+<?php 
+    function addtion ($a, $b) {
+        return $a + $b; 
+    }
+    echo addtion (5, 3)
+?>
